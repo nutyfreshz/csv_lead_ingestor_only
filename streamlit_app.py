@@ -111,7 +111,7 @@ if_exists_option = st.sidebar.selectbox("Select function", list(if_exists_map.ke
 if_exists_value = if_exists_map[if_exists_option]
 
 # Input Bigquery table
-table_id_input = 'ca_ds_crm_campaign_target_control'
+table_id_input = 'CAS_DS_DATABASE.ca_ds_crm_campaign_target_control'
 
 # Add a button to trigger the upload process
 ingest_button = st.sidebar.button("Let's ingest into GBQ")
