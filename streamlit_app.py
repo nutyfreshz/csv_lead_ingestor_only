@@ -91,7 +91,7 @@ send_date_fb_input = st.sidebar.text_input("Enter send_date_facebook period(e.g.
 send_date_call_input = st.sidebar.text_input("Enter send_date_call period(e.g. 2024-04-26)")
 
 # Input requester
-req_option = st.sidebar.selectbox("Select requester", ["Yotsawat S.","Bodee B.","Kamontip A.","Lalita P.","Phuwanat T.","Sypabhas T.","Thus S.","Tunsinee U.","Watcharapon P."])
+req_option = st.sidebar.selectbox("Select requester", ["Pichaporn K.","Dudsadee W.","Tanut P.","Bodee B.","Kamontip A.","Lalita P.","Sypabhas T.","Thus S."])
 
 # Input data_owner
 owner_option = st.sidebar.selectbox("Select data_owner", ["BI Dashboard","Kamontip A.","Kittipob S.","Nutchapong L.","Paniti T.","Pattamaporn V.","Phat P.","Pornpawit J."])
